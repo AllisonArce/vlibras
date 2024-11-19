@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>VLibras</title>
+    <script type="text/javascript" src="https://www.vlibras.gov.br/app/vlibras.js"></script>
+</head>
+<body>
+    <div id="vlibras"></div>
+    <script type="text/javascript">
+        new window.VLibras.Widget('https://www.vlibras.gov.br/app');
+    </script>
+</body>
+</html>
